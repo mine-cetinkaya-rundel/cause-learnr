@@ -20,7 +20,7 @@ knitr::opts_chunk$set(echo = FALSE)
 checker <- function(label, user_code, check_code, envir_result, evaluate_result, ...) {
   list(message = check_code, correct = TRUE, location = "append")
 }
-tutorial_options(exercise.checker = checker)
+tutorial_options(exercise.timelimit = 10, exercise.checker = checker)
 ```
 
 ## Topic 1
