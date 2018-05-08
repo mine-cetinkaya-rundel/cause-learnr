@@ -9,12 +9,18 @@ runtime: shiny_prerendered
 ---
 
 ```{r setup, include=FALSE}
+# load packages
 library(learnr)
 library(tidyverse)
+
+# don't echo chunks
+knitr::opts_chunk$set(echo = FALSE)
+
+# code checking
 checker <- function(label, user_code, check_code, envir_result, evaluate_result, ...) {
   list(message = check_code, correct = TRUE, location = "append")
 }
-tutorial_options(exercise.timelimit = 3, exercise.checker = checker)
+tutorial_options(exercise.checker = checker)
 ```
 
 ## Topic 1
