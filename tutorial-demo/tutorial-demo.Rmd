@@ -31,6 +31,8 @@ Hello, today we learn about `learnr`.
 
 ![Data science cycle](https://afit-r.github.io/public/images/data-science.png)
 
+Some math: $a^2 + b^2 = c^2$.
+
 ### Exercise 
 
 *Here's a simple exercise with an empty code chunk provided for entering the answer.*
